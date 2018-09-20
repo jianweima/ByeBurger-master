@@ -26,9 +26,9 @@ public class HomeFragment extends Fragment {
   }
 
   public static HomeFragment newInstance() {
-    Bundle args = new Bundle();
+    Bundle bundle = new Bundle();
     HomeFragment fragment = new HomeFragment();
-    fragment.setArguments(args);
+    fragment.setArguments(bundle);
     return fragment;
   }
 
